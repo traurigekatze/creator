@@ -1,7 +1,6 @@
 package com.kerry.creator.dubbo;
 
 /*
-
 手写模拟 dubbo
 1、provider：提供api、实现api、暴露（启动tomcat,nettyServer）、服务本地注册、服务注册中心注册
 
@@ -13,5 +12,4 @@ package com.kerry.creator.dubbo;
 
 5、framework：框架实现
 
-6、test 码云
  */
