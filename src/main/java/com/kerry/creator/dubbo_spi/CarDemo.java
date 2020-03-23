@@ -13,7 +13,7 @@ import com.kerry.creator.dubbo_spi.api.CarService;
 public class CarDemo {
 
     public static void main(String[] args) {
-        // dubbo spi basic && aop
+        // dubbo_simulation spi basic && aop
         ExtensionLoader<CarService> extensionLoader = ExtensionLoader.getExtensionLoader(CarService.class);
         CarService redCarService = extensionLoader.getExtension("red");
         redCarService.getColor();

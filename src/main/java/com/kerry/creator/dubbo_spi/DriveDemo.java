@@ -18,7 +18,7 @@ import java.util.Map;
 public class DriveDemo {
 
     public static void main(String[] args) {
-        // dubbo spi ioc
+        // dubbo_simulation spi ioc
         ExtensionLoader<Driver> extensionLoader = ExtensionLoader.getExtensionLoader(Driver.class);
         Driver driver = extensionLoader.getExtension("trucker");
 

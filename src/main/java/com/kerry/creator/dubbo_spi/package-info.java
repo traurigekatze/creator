@@ -1,7 +1,7 @@
 package com.kerry.creator.dubbo_spi;
 
 /*
-dubbo spi example
+dubbo_simulation spi example
 
 1、java spi 不能单独获取某个指定的实现类
 
