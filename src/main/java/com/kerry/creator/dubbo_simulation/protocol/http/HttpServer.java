@@ -42,7 +42,7 @@ public class HttpServer {
         service.setContainer(engine);
         service.addConnector(connector);
 
-        tomcat.addServlet(contextPath, "dispatcher", new DispatcherServlet());
+        tomcat.addServlet(contextPath, "dispatcher", new DispatcherServe());
         context.addServletMappingDecoded("/*", "dispatcher");
 
         try {

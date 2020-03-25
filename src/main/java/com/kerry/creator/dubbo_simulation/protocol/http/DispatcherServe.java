@@ -13,7 +13,7 @@ import java.io.IOException;
  * @date 2020/3/21
  * **********学海无涯苦作舟**********
  */
-public class DispatcherServlet extends HttpServlet {
+public class DispatcherServe extends HttpServlet {
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         new HttpServerHandler().handler(req, resp);
