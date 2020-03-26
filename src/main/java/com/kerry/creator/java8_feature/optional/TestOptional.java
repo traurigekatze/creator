@@ -25,7 +25,7 @@ public class TestOptional {
          * orElseGet(Supplier<? extends T> other)：如果没值则执行other并返回
          *
          */
-        return Optional.ofNullable(person).map(Person::getName).orElse(new Person().getName());
+        return Optional.ofNullable(person).map(Person::getName).orElse("");
     }
 
 }
