@@ -3,8 +3,6 @@ package com.kerry.creator.springframework.service.impl;
 import com.kerry.creator.springframework.dao.TestIocDao;
 import com.kerry.creator.springframework.service.TestIocService;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Controller;
-import org.springframework.stereotype.Service;
 
 /**
  * **********书山有路勤为径**********
@@ -13,8 +11,6 @@ import org.springframework.stereotype.Service;
  * @date 2020/3/26
  * **********学海无涯苦作舟**********
  */
-@Controller
-@Service
 @Component
 public class TestIocServiceImpl implements TestIocService {
 
