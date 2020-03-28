@@ -1,0 +1,3 @@
+red = com.kerry.creator.dubbo_spi.impl.RedCarServiceImpl
+black = com.kerry.creator.dubbo_spi.impl.BlackCarServiceImpl
+com.kerry.creator.dubbo_spi.impl.CarWrapper
