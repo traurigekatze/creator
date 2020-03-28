@@ -21,12 +21,12 @@ public class SpringIocApplication {
         log.info("controller1 hashcode.。。。");
         TestController controller = context.getBean("testController", TestController.class);
         controller.test();
-        log.info("controller2 hashcode.。。。");
-        TestController controller2 = context.getBean("testController", TestController.class);
-        controller2.test();
-        log.info("controller3 hashcode.。。。");
-        TestController controller3 = context.getBean("testController", TestController.class);
-        controller3.test();
+//        log.info("controller2 hashcode.。。。");
+//        TestController controller2 = context.getBean("testController", TestController.class);
+//        controller2.test();
+//        log.info("controller3 hashcode.。。。");
+//        TestController controller3 = context.getBean("testController", TestController.class);
+//        controller3.test();
     }
 
 }

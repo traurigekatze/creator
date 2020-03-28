@@ -23,16 +23,16 @@ import javax.annotation.Resource;
 @Controller
 public abstract class TestController  {
 
-//    @Autowired
-//    private TestService testServiceImpl1;
+    @Autowired
+    private TestService testServiceImpl1;
 
-    @Lookup("testServiceImpl1")
-    protected abstract TestService getTestServiceImpl1();
+//    @Lookup("testServiceImpl1")
+//    protected abstract TestService getTestServiceImpl1();
 
     public void test() {
-//        testServiceImpl1.test();
-      log.info("controller hashcode：{}", this.hashCode());
-      log.info("testServiceImpl1 hashcode：{}", getTestServiceImpl1().hashCode());
+        testServiceImpl1.test();
+//      log.info("controller hashcode：{}", this.hashCode());
+//      log.info("testServiceImpl1 hashcode：{}", getTestServiceImpl1().hashCode());
     }
 
 

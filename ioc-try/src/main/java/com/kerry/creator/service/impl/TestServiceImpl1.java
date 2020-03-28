@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
  * **********学海无涯苦作舟**********
  */
 @Service
-@Scope(value = "prototype")
+//@Scope(value = "prototype")
 public class TestServiceImpl1 implements TestService {
 
     @Override
