@@ -4,6 +4,8 @@ import com.kerry.creator.service.TestService;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.PostConstruct;
+
 /**
  * **********书山有路勤为径**********
  *
@@ -19,4 +21,10 @@ public class TestServiceImpl1 implements TestService {
     public void test() {
         System.out.println("test service impl 1...");
     }
+
+    @PostConstruct
+    public void init() {
+        System.out.println("init TestServiceImpl1");
+    }
+
 }

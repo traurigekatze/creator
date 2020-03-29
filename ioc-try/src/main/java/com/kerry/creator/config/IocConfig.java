@@ -11,6 +11,7 @@ import org.springframework.context.annotation.Configuration;
  * **********学海无涯苦作舟**********
  */
 @Configuration
-@ComponentScan("com.kerry.creator")
+//@ComponentScan(basePackages = "com.kerry.creator", nameGenerator = MyNameGenerator.class)
+@ComponentScan(basePackages = "com.kerry.creator")
 public class IocConfig {
 }

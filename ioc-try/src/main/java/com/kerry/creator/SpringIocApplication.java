@@ -1,6 +1,8 @@
 package com.kerry.creator;
 
+import com.kerry.creator.config.IocConfig;
 import com.kerry.creator.controller.TestController;
+import com.kerry.creator.service.TestService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -17,8 +19,9 @@ public class SpringIocApplication {
 
     public static void main(String[] args) {
 //        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("SpringIoc.xml");
-        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext("com.kerry.creator");
-        log.info("controller1 hashcode.。。。");
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(IocConfig.class);
+
+//        log.info("controller1 hashcode.。。。");
         TestController controller = context.getBean("testController", TestController.class);
         controller.test();
 //        log.info("controller2 hashcode.。。。");

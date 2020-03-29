@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Lookup;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Controller;
+import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 
@@ -21,19 +22,18 @@ import javax.annotation.Resource;
  */
 @Slf4j
 @Controller
-public abstract class TestController  {
+public class TestController  {
 
     @Autowired
     private TestService testServiceImpl1;
 
 //    @Lookup("testServiceImpl1")
-//    protected abstract TestService getTestServiceImpl1();
+//    protected abstract TestService getTestServiceImpl1(); // {return null;}
 
     public void test() {
         testServiceImpl1.test();
 //      log.info("controller hashcode：{}", this.hashCode());
-//      log.info("testServiceImpl1 hashcode：{}", getTestServiceImpl1().hashCode());
+//      log.info("testServiceImpl1 hashcode：{}", testServiceImpl1.hashCode());
     }
-
 
 }
