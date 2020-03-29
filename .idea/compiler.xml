@@ -2,12 +2,14 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ioc-try" />
+        <module name="dubbo-try" />
         <module name="java8-try" />
+        <module name="ioc-try" />
       </profile>
       <profile name="Annotation profile for creator1" enabled="true">
         <sourceOutputDir name="../dubb-otry/target/generated-sources/annotations" />
@@ -21,6 +23,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="creator1" options="-parameters" />
       <module name="dubb-otry" options="-parameters" />
+      <module name="dubbo-try" options="-parameters" />
       <module name="ioc-try" options="-parameters" />
       <module name="java8-try" options="-parameters" />
     </option>
