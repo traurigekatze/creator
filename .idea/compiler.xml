@@ -12,16 +12,16 @@
         <module name="ioc-try" />
       </profile>
       <profile name="Annotation profile for creator1" enabled="true">
-        <sourceOutputDir name="../dubb-otry/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../dubb-otry/target/generated-test-sources/test-annotations" />
+        <sourceOutputDir name="../dubbo-try/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../dubbo-try/target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="dubb-otry" />
+        <module name="dubbo-try" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="creator1" options="-parameters" />
+      <module name="creator" options="-parameters" />
       <module name="dubb-otry" options="-parameters" />
       <module name="dubbo-try" options="-parameters" />
       <module name="ioc-try" options="-parameters" />
