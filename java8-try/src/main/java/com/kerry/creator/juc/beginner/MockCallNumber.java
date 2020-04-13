@@ -18,7 +18,7 @@ public class MockCallNumber implements Runnable {
     /**
      * 最大执行次数
      */
-    private static final Integer MAX_NUMBER = 3000;
+    private static final Integer MAX_NUMBER = 30;
 
     private Integer nextNumber = 1;
 
