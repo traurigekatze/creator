@@ -9,9 +9,15 @@ package com.kerry.creator.singleton;
  */
 public class SingletonLazyDbc {
 
+    /**
+     * 当类中有多个Class 属性，在constructor方法中初始化时，可能出现指令重排
+     */
     private SingletonLazyDbc() {}
 
-    private static SingletonLazyDbc lazy = null;
+    /**
+     * volatile 防止指令重排。
+     */
+    private volatile static SingletonLazyDbc lazy = null;
 
     /**
      * get lazy singleton

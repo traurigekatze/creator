@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Lazy;
 
 /**
  * **********书山有路勤为径**********
- * lazy singleton inner class
+ * lazy singleton inner class（Holder模式）
  * @author k1rry
  * @date 2020/4/13
  * **********学海无涯苦作舟**********

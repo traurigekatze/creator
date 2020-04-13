@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c2aa960-e676-4d9b-aafc-0923cb355711" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java8-try/src/main/java/com/kerry/creator/singleton/SingletonHungryInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java8-try/src/main/java/com/kerry/creator/singleton/SingletonLazyDbc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java8-try/src/main/java/com/kerry/creator/singleton/SingletonLazyInnerClazz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java8-try/src/main/java/com/kerry/creator/singleton/TestSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java8-try/src/main/java/com/kerry/creator/singleton/package-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java8-try/src/main/java/com/kerry/creator/juc/beginner/MockCallNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/java8-try/src/main/java/com/kerry/creator/juc/beginner/MockCallNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java8-try/src/main/java/com/kerry/creator/singleton/SingletonLazyDbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/java8-try/src/main/java/com/kerry/creator/singleton/SingletonLazyDbc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java8-try/src/main/java/com/kerry/creator/singleton/SingletonLazyInnerClazz.java" beforeDir="false" afterPath="$PROJECT_DIR$/java8-try/src/main/java/com/kerry/creator/singleton/SingletonLazyInnerClazz.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java8-try/src/main/java/com/kerry/creator/singleton/SingletonLazyDbc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5">
-              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+            <state relative-caret-position="264">
+              <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -42,17 +38,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java8-try/src/main/java/com/kerry/creator/singleton/TestSingleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="25" column="121" selection-start-line="25" selection-start-column="121" selection-end-line="25" selection-end-column="121" />
+            <state relative-caret-position="264">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java8-try/src/main/java/com/kerry/creator/singleton/package-info.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+            <state relative-caret-position="110">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -60,25 +56,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java8-try/src/main/java/com/kerry/creator/singleton/SingletonHungryInit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-              <folding>
-                <element signature="e#359#360#0" expanded="true" />
-                <element signature="e#388#389#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="440">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java8-try/src/main/java/com/kerry/creator/singleton/SingletonLazyInnerClazz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="24" column="75" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="75" />
-              <folding>
-                <element signature="e#552#553#0" expanded="true" />
-                <element signature="e#600#601#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="132">
+              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -162,11 +150,11 @@
         <option value="$PROJECT_DIR$/java8-try/src/main/java/com/kerry/creator/singleton/SingletonHungry.java" />
         <option value="$PROJECT_DIR$/java8-try/src/main/java/com/kerry/creator/singleton/SingletonLazy.java" />
         <option value="$PROJECT_DIR$/java8-try/src/main/java/com/kerry/creator/singleton/SingletonLazyDBC.java" />
-        <option value="$PROJECT_DIR$/java8-try/src/main/java/com/kerry/creator/singleton/SingletonLazyDbc.java" />
-        <option value="$PROJECT_DIR$/java8-try/src/main/java/com/kerry/creator/singleton/SingletonHungryInit.java" />
-        <option value="$PROJECT_DIR$/java8-try/src/main/java/com/kerry/creator/singleton/SingletonLazyInnerClazz.java" />
-        <option value="$PROJECT_DIR$/java8-try/src/main/java/com/kerry/creator/singleton/TestSingleton.java" />
         <option value="$PROJECT_DIR$/java8-try/src/main/java/com/kerry/creator/singleton/package-info.java" />
+        <option value="$PROJECT_DIR$/java8-try/src/main/java/com/kerry/creator/singleton/TestSingleton.java" />
+        <option value="$PROJECT_DIR$/java8-try/src/main/java/com/kerry/creator/singleton/SingletonHungryInit.java" />
+        <option value="$PROJECT_DIR$/java8-try/src/main/java/com/kerry/creator/singleton/SingletonLazyDbc.java" />
+        <option value="$PROJECT_DIR$/java8-try/src/main/java/com/kerry/creator/singleton/SingletonLazyInnerClazz.java" />
       </list>
     </option>
   </component>
@@ -220,6 +208,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -368,7 +357,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -514,7 +502,8 @@
       <workItem from="1586153132442" duration="5456000" />
       <workItem from="1586351849388" duration="386000" />
       <workItem from="1586352267399" duration="2925000" />
-      <workItem from="1586782802417" duration="2264000" />
+      <workItem from="1586782802417" duration="2527000" />
+      <workItem from="1586787966621" duration="263000" />
     </task>
     <task id="LOCAL-00001" summary="add nameGenerator">
       <created>1585483130816</created>
@@ -544,17 +533,24 @@
       <option name="project" value="LOCAL" />
       <updated>1586158352235</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="singleton">
+      <created>1586785317044</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586785317044</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29906000" />
+    <option name="totallyTimeSpent" value="30432000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2803838" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2835821" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -563,7 +559,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5314534" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2646421" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5292842" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -573,7 +569,7 @@
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Sequence" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.329718" />
       <window_info anchor="bottom" id="SonarLint" order="15" weight="0.46203905" />
@@ -632,7 +628,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add nameGenerator" />
     <MESSAGE value="add mock call number" />
-    <option name="LAST_COMMIT_MESSAGE" value="add mock call number" />
+    <MESSAGE value="singleton" />
+    <option name="LAST_COMMIT_MESSAGE" value="singleton" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dubb-otry/src/main/resources/META-INFO/services/com.kerry.creator.dubbo_spi.api.Driver" />
@@ -953,46 +950,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java8-try/src/main/java/com/kerry/creator/singleton/SingletonHungryInit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding>
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java8-try/src/main/java/com/kerry/creator/singleton/SingletonLazyDbc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java8-try/src/main/java/com/kerry/creator/singleton/SingletonLazyInnerClazz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="24" column="75" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="75" />
-          <folding>
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java8-try/src/main/java/com/kerry/creator/singleton/TestSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="25" column="121" selection-start-line="25" selection-start-column="121" selection-end-line="25" selection-end-column="121" />
+        <state relative-caret-position="264">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java8-try/src/main/java/com/kerry/creator/singleton/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java8-try/src/main/java/com/kerry/creator/singleton/SingletonHungryInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java8-try/src/main/java/com/kerry/creator/singleton/SingletonLazyDbc.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java8-try/src/main/java/com/kerry/creator/singleton/SingletonLazyInnerClazz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
         </state>
       </provider>
     </entry>
