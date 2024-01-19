@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-01-19T05:50:29.006Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="3brKULB7Whs4DyHkk2lO" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-19T07:07:37.460Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="fEwX3QkWmrpR1Nu_75st" version="22.1.21" type="github">
   <diagram name="第 1 页" id="qbQ6cR2ByOW6Kd5CD2os">
     <mxGraphModel dx="1434" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="_LMUJBaVddzOkzJX7sF0-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;AbstractProduct（抽象产品）&lt;br&gt;&lt;b&gt;Interface&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="220" y="220" width="190" height="100" as="geometry" />
+          <mxGeometry x="224" y="260" width="190" height="100" as="geometry" />
         </mxCell>
         <mxCell id="_LMUJBaVddzOkzJX7sF0-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="_LMUJBaVddzOkzJX7sF0-6" target="_LMUJBaVddzOkzJX7sF0-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -13,56 +13,46 @@
         <mxCell id="_LMUJBaVddzOkzJX7sF0-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;ConcreteProductA（具体产品）&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="60" y="420" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="_LMUJBaVddzOkzJX7sF0-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Product（产品）&lt;br&gt;&lt;b&gt;Interface&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="294" y="-200" width="190" height="100" as="geometry" />
+        <mxCell id="_LMUJBaVddzOkzJX7sF0-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;AbstractProduct（抽象产品）&lt;br&gt;&lt;b&gt;Interface&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="90" y="-220" width="190" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="_LMUJBaVddzOkzJX7sF0-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="_LMUJBaVddzOkzJX7sF0-24" target="_LMUJBaVddzOkzJX7sF0-8" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="434" y="-20" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_LMUJBaVddzOkzJX7sF0-20" value="implement" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="_LMUJBaVddzOkzJX7sF0-16" vertex="1" connectable="0">
-          <mxGeometry x="-0.5923" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_LMUJBaVddzOkzJX7sF0-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="_LMUJBaVddzOkzJX7sF0-25" target="_LMUJBaVddzOkzJX7sF0-8" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="274" y="-255" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_LMUJBaVddzOkzJX7sF0-18" value="implement" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="_LMUJBaVddzOkzJX7sF0-17" vertex="1" connectable="0">
-          <mxGeometry x="-0.3909" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_LMUJBaVddzOkzJX7sF0-24" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;ProductB（具体产品）&lt;br&gt;&lt;b&gt;Class&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="94" y="-80" width="180" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="_LMUJBaVddzOkzJX7sF0-25" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;ProductA（具体产品）&lt;br&gt;&lt;b&gt;Class&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="94" y="-320" width="180" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="_LMUJBaVddzOkzJX7sF0-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="_LMUJBaVddzOkzJX7sF0-26" target="_LMUJBaVddzOkzJX7sF0-8" edge="1">
+        <mxCell id="E5OfT0dyjSnbupYeVlnE-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_LMUJBaVddzOkzJX7sF0-25" target="_LMUJBaVddzOkzJX7sF0-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_LMUJBaVddzOkzJX7sF0-31" value="创建产品" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="_LMUJBaVddzOkzJX7sF0-28" vertex="1" connectable="0">
-          <mxGeometry x="-0.1167" y="4" relative="1" as="geometry">
+        <mxCell id="E5OfT0dyjSnbupYeVlnE-3" value="实现具体产品" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="E5OfT0dyjSnbupYeVlnE-2">
+          <mxGeometry x="0.12" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_LMUJBaVddzOkzJX7sF0-26" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Factory（工厂）&lt;br&gt;&lt;b&gt;Class&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ create(): Product&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="574" y="-320" width="180" height="100" as="geometry" />
+        <mxCell id="_LMUJBaVddzOkzJX7sF0-25" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;ConcreteProduct（具体产品）&lt;br&gt;&lt;b&gt;Class&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="90" y="-20" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E5OfT0dyjSnbupYeVlnE-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_LMUJBaVddzOkzJX7sF0-26" target="_LMUJBaVddzOkzJX7sF0-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E5OfT0dyjSnbupYeVlnE-12" value="create" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="E5OfT0dyjSnbupYeVlnE-11">
+          <mxGeometry x="-0.1" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_LMUJBaVddzOkzJX7sF0-26" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;AbstractFactory（抽象工厂）&amp;nbsp;&lt;br&gt;&lt;b&gt;Abstract Class&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ abstract create(): Product&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ get(): Product&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="480" y="-225" width="180" height="110" as="geometry" />
         </mxCell>
         <mxCell id="_LMUJBaVddzOkzJX7sF0-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_LMUJBaVddzOkzJX7sF0-27" target="_LMUJBaVddzOkzJX7sF0-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_LMUJBaVddzOkzJX7sF0-30" value="使用工厂" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="_LMUJBaVddzOkzJX7sF0-29" vertex="1" connectable="0">
+        <mxCell id="_LMUJBaVddzOkzJX7sF0-30" value="继承" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="_LMUJBaVddzOkzJX7sF0-29" vertex="1" connectable="0">
           <mxGeometry x="0.0286" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_LMUJBaVddzOkzJX7sF0-27" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;FactoryPatternDemo&lt;br&gt;&lt;b&gt;Class&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ main(): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="574" y="-80" width="180" height="100" as="geometry" />
+        <mxCell id="E5OfT0dyjSnbupYeVlnE-6" value="继承实现创建方法" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_LMUJBaVddzOkzJX7sF0-29">
+          <mxGeometry x="-0.0182" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_LMUJBaVddzOkzJX7sF0-27" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;ConcreteFactory（具体工厂）&lt;br&gt;&lt;b&gt;Class&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ create(): Product&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="480" y="-10" width="180" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
